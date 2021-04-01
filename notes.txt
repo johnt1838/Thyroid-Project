@@ -1,0 +1,83 @@
+What are the questions here? What are we trying to get from this dataset? 
+-) DATA:
+
+1.(data) age:				continuous.
+2.(data) sex:				M, F.
+3.(data) on thyroxine:			f, t.
+4. query on thyroxine:		f, t.
+5. (data) on antithyroid medication:	f, t.
+6.sick:				f, t.
+7.pregnant:			f, t.
+8.thyroid surgery:		f, t.
+9.(data) I131 treatment:			f, t.
+10.query hypothyroid:		f, t.
+11.query hyperthyroid:		f, t.
+12.lithium:			f, t.
+13.goitre:				f, t.
+14. (result/prediction)--> tumor:				f, t. //Is this something that we want to know ?
+15. hypopituitary:			f, t.
+16. psych:				f, t.
+17. (data)TSH measured:			f, t.
+18. (data)TSH:				continuous.
+19. (data)T3 measured:			f, t.
+20. (data)T3:				continuous.
+21. (data)TT4 measured:			f, t.
+22. (data)TT4:				continuous.
+23. (data)T4U measured:			f, t.
+24. (data)T4U:				continuous.
+25. (data)FTI measured:			f, t.
+26. (data)FTI:				continuous.
+27. (data)TBG measured:			f, t.
+28. (data)TBG:				continuous.
+29. referral source:		WEST, STMW, SVHC, SVI, SVHD, other.
+
+    [TOTAL]:
+    attributes : 17
+    data for prediction : (Percentage for tumor)/ (Does he have tumor?)
+    
+
+!) What data are useful?
+
+explanation: 
+
+TSH = Thyroid stimulating hormone. 
+High TSH levels can mean your thyroid is not making enough thyroid hormones, 
+a condition called hypothyroidism.
+--Low TSH levels can mean your thyroid is making too much of the hormones, 
+a condition called hyperthyroidism.--
+!) A TSH test does not explain why TSH levels are too high or too low
+
+T3 = T3 is a second thyroid hormone that is produced by the thyroid gland, 
+but also in other tissues through deiodination (enzymatic conversion) of T4. 
+T3 helps maintain muscle control, brain function and development,
+heart and digestive functions.
+
+TΤ4 = Thyroxine (T4) is responsible for your metabolism, mood, and body temperature, among other things. 
+T3, too, is made in the thyroid gland, and it can also be made in other tissues within the body by converting T4
+(in a process called deiodination) into T3.
+
+Τ4U = Subset of t4
+
+FTI =Free thyroid index .The free T4 index (FTI) is a blood test used to diagnose thyroid disorders. 
+T4,also called thyroxine, is a thyroid hormone. The test measures how much of it is in your blood to help determine whether your thyroid gland is underactive
+ (hypothyroidism) or overactive (hyperthyroidism).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***
+
+!) Classification models for later
+SVM RF KNN 
+
+***
